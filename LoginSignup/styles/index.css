@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    margin-top: 0ch;
+    margin-left: 0ch;
+}
+#navbar{
+    background-color: teal;
+    display: flex;
+    gap: 8%;
+    padding: 20px;
+    
+}
+#left{
+    margin-left: 55%;
+}
+#navbar>P>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#wlcm{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(16, 92, 122);
+    text-decoration:wavy;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+#movies>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#movies>div>img{
+    margin-left: 15px;
+}
+#movies>div>p{
+    margin-left: 20px;
+}
+#sort-buttons{
+   margin-left:100px; ;
+   margin-top: -50px;
+   margin-bottom: 50px;
+  
+}
+#sort{
+    color: rgb(18, 18, 214);
+    font-weight: bolder;
+}

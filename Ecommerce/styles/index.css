@@ -1,0 +1,51 @@
+*,::before,::after{margin: 0; box-sizing: border-box; }
+body{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;background-color: #e7e3e3;}
+button{ cursor: pointer; padding: 0;}
+:disabled{ cursor: not-allowed;}
+a{text-decoration: none; color: black; }
+li{list-style:none;}
+img{vertical-align: bottom;}
+.container{max-width: 1200px; margin: auto;margin-top: 0 15px;}
+
+
+.row {display: flex; flex-flow: row wrap; margin: 0 -40px;}
+.row[class^="col-"]{flex:1 0 auto; padding:0 15px;}
+
+.row .col-1{ flex-basis: 8.33%; max-width:  8.33%;}
+.row .col-2{ flex-basis: 16.66%; max-width: 16.66%;}
+.row .col-3{ flex-basis: 25%; max-width: 25%;}
+.row .col-4{ flex-basis: 33.33%; max-width: 33.33%;}
+.row .col-5{ flex-basis: 41.66%; max-width: 41.66%;}
+.row .col-6{ flex-basis: 50%; max-width: 50%;}
+.row .col-7{ flex-basis: 58.33%; max-width: 58.33%;}
+.row .col-8{ flex-basis: 66.66%; max-width: 66.66%;}
+.row .col-9{ flex-basis: 75%; max-width: 75%;}
+.row .col-10{ flex-basis: 83.33%; max-width: 83.33%;}
+.row .col-11{ flex-basis: 91.6%; max-width: 91.6%;}
+.row .col-12{ flex-basis: 100%; max-width: 100%;}
+
+.wrap-1{ background: #2f2f2f; position: sticky; top: 0; }
+.wrap-1 ul{ display: flex; margin: 15px 0 ;}
+.wrap-1 ul li{ margin-right: 15px; border: none; padding: 2px 8px; border-radius: 3px; cursor: pointer;}
+.wrap-1 ul li:active{ background: #6b6a6a;}
+.wrap-1 ul li:hover{ background: #6b6a6a;}
+.wrap-1 ul li a{ font-size: 14px; color: #e7e3e3;}
+.wrap-1 .login{ justify-content: end;}
+.wrap-1 .search{ justify-items: center; }
+.wrap-1 .search{ border: 1px solid #6b6a6a; width: 280px; color: #fff;}
+.wrap-1 .search label input{ border: 1px solid #6b6a6a;  margin-left: 15px; width: 80%; background: transparent; border: none; color: #fff;}
+.wrap-1.search label input:active{ display: block; }
+
+
+.wrap-2{ margin-top: 30px;}
+.wrap-2 .cartBox{ display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 20px; justify-content: space-between;}
+.wrap-2 .cartBox>div{ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px;}
+.wrap-2 .cartBox img{ width: 270px; height: 270px;}
+.wrap-2 .cartbtn{ font-weight: bold; font-size: 16px; padding: 3px 10px; margin: 20px 0 20px 80px; background: #5ff35f; border-radius: 5px;}
+.wrap-2 .cartbtn:active{ background: #027f02;}
+
+.wrap-3, .wrap-4{ display: none; z-index: 1; width: 100%; height: 100%; position:  fixed; top: 0; left: 0; border: 1px solid black; background: #f1eeee;}
+ .second { text-align: center; margin-top: 70px;  }
+ .second form label{ border: 1px solid black; font-size: 22px; width: 100%; height: 40px; margin: 10px 0; padding: 10px 0;}
+ .second form label input{ background: transparent; border: none; height: 23px; width: 80%; margin-left: 20px;}
+.close{ position: fixed; top: 50px; right: 600px; cursor: pointer; font-size: 32px;}

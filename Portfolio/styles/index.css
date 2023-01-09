@@ -1,0 +1,91 @@
+*,::before,::after{ margin: 0; box-sizing: border-box;}
+body{ font-family: sans-serif; background: #e2e0e0;}
+html{ scroll-behavior:smooth; }
+ul{ list-style: none; padding: 0; display: flex;}
+a{ text-decoration: none; color: #000;}
+button{ padding: 0; cursor: pointer;background: #f60c0c; color: #fff; border: none; padding: 10px; font-size: 18px; border-radius: 3px; margin: 20px 0;}
+:disabled{ cursor: not-allowed;}
+img{ vertical-align: bottom;}
+label{ display: inline block;}
+h1,h2,h3,h4,p{ line-height: 30px;}
+
+.container{ max-width: 1200px; margin: auto; padding: 0 15; }
+
+.row{ display: flex; flex-flow: row wrap; margin: 0 -15px; }
+.row[class^="col-"]{ flex:1 0 auto ;  margin: 0 15px; }
+
+.row .col-1{flex-basis: 8.33%; max-height: 8.33%;}
+.row .col-2{flex-basis: 16.66%; max-height: 16.66%;}
+.row .col-3{flex-basis: 25%; max-height: 25%;}
+.row .col-4{flex-basis: 33.33%; max-height: 33.33%;}
+.row .col-5{flex-basis: 41.66%; max-height: 41.66%;}
+.row .col-6{flex-basis: 50%; max-height: 50%;}
+.row .col-7{flex-basis: 58.33%; max-height: 58.33%;}
+.row .col-8{flex-basis: 66.66%; max-height: 66.66%;}
+.row .col-9{flex-basis: 75%; max-height: 75%;}
+.row .col-10{flex-basis: 83.33%; max-height: 83.33%;}
+.row .col-11{flex-basis: 91.66%; max-height: 91.66%;}
+.row .col-12{flex-basis: 100%; max-height: 100%;}
+
+.wrap-1{ background:#e0e0e0 ; position: sticky; top: 0; z-index: 1; border-bottom: 1px solid #000;}
+.wrap-1 h1{ padding: 10px; text-shadow: -1px 2px 7px #fff;}
+.wrap-1 h1 b{ font-size: 44px; }
+.wrap-1 h1 b small{ color: rgb(248, 14, 14);}
+.wrap-1 ul{ justify-content: space-evenly;}
+.wrap-1 ul li{ margin: 27px 0; }
+.wrap-1 ul li a{ padding: 20px 0; font-size: 20px; text-shadow: 1px 1px 1px #fff; }
+
+.upbtn{ position: fixed; margin: 0 20px 20px 0; bottom: 0; right: 0;}
+.upbtn .fa{ margin: 0 3px; color: #fff;}
+
+.wrap-2{ background: #000; height: 700px; z-index: 0; }
+.wrap-2 img{ position: absolute; height: 700px; right: 0; }
+.wrap-2 .container{ position: relative; top: 300px;}
+.wrap-2 .name{ font-size: 55px;}
+.wrap-2 i{ font-size: 18px; line-height: 20px; color: #fff; }
+.wrap-2 h2{ font-size: 38px; line-height: 60px; color: #fff; text-shadow: 1px 1px 1px #000;}
+.wrap-2 h2>span{ font-size: 18px; color: #fff;}
+
+.col-2 h2{ text-align: center;}
+.box{ margin: 30px 0;}
+.col-2 p{color: #f60c0c; text-align: center; }
+.wrap-3 .imgbox{ margin: 30px 0; width: 480px; height: 500px;}
+.wrap-3 .imgbox img{ width: 480px; height: 500px;}
+.wrap-3 .about{ margin: 30px; padding: 80px 0;}
+.wrap-3 .about h3>b{ color: #f22626;}
+
+.wrap-4{ background:#000; color: #fff;}
+.wrap-4 .projectbox{ margin: 30px 0;}
+.wrap-4 .projectscreen{ margin: 20px 15px; height: 380px; border: 1px solid gray; text-align: center;}
+.wrap-4 .projectscreen div{ width: 90%; height: 200px;}
+.wrap-4 .projectscreen img{ width: 100%; margin: 0 20px; height: 190px;}
+.wrap-4 .projectscreen h3{ margin-top: 20px;}
+
+.wrap-5{ margin: 0 0;}
+.wrap-5 .progressbox{ margin: 30px 0;}
+.wrap-5 .graph{height: 20px; border: 1px ; width: 100%; background: #FFF;}
+.wrap-5 .graph .probar{float: left; background-color: #ff5640; height: 100%; text-align: center;}
+.wrap-5 .graph .html5{ width: 80%;}
+.wrap-5 .graph .css3{ width: 65%;}
+.wrap-5 .graph .javas{ width: 80%;}
+.wrap-5 .graph .bt{ width: 70%;}
+.wrap-5 .graph .react{ width: 40%;}
+
+.wrap-6{ background: #000;}
+.wrap-6 h2{ color: #fff;}
+.wrap-6 .fa{font-size: 28px;}
+.wrap-6 #html{ color: #ff5640;}
+.wrap-6 #css{ color: #6666f6;}
+.wrap-6 #js{ color: #f3f32e;}
+.wrap-6 #react{ color: #4040f1;}
+.wrap-6 #git{ color:#ee2121;}
+.wrap-6 #psd{ color:#4848eb;}
+.wrap-6 p{ color: #fff; font-size: 18px;}
+.wrap-6 .tools{ padding: 30px;}
+
+.wrap-7 .links .fa{ line-height: 30px; font-size: 22px ; margin: 10px 0; }
+.wrap-7 .links a{ margin: 0 20px; font-size: 18px;}
+.wrap-7 label{ width: 100%; margin: 15px 0; border: 1px solid #000; height: 32px; font-size: 22px;}
+.wrap-7 label input{ border: none; background: none; width: 80%; height: 28px; margin: 0 0 0 20px;}
+
+.wrap-7 .fa{ width: 100%;}

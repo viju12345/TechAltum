@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    margin-top: 0ch;
+    margin-left: 0ch;
+}
+#navbar{
+    background-color: teal;
+    display: flex;
+    gap: 8%;
+    padding: 20px;
+    
+}
+#left{
+    margin-left: 65%;
+}
+#navbar>P>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#userLogin{
+    width: 20%;
+    margin: auto;
+    margin-top: 90px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#userLogin>input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#submit{
+    cursor: pointer;
+    background-color: skyblue;
+    border-radius: 4px;
+}
+#submit:hover{
+    background-color: aqua;
+}
